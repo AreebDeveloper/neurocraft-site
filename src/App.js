@@ -10,7 +10,7 @@ import {
   ArrowUpRight,
   Play,
   Star,
-  Lightbulb,    
+  Lightbulb,
   Rocket,
   CheckCircle,
   Mail,
@@ -64,7 +64,9 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-30 h-30 bg-gradient-to-br  rounded-lg flex items-center justify-center">
-                <img src={Logo} />
+                <a href='#'>
+                  <img src={Logo} />
+                </a>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -86,7 +88,7 @@ function App() {
               >
                 About
               </a>
-                <a
+              <a
                 href="#project"
                 className="text-slate-600 hover:text-slate-900 transition-all duration-300 hover:scale-105"
               >
@@ -99,7 +101,9 @@ function App() {
                 Contact
               </a>
               <Button className="bg-slate-900 hover:bg-slate-800 text-white hover:scale-105 transition-all duration-300">
-                Start Project
+                <a href='#contact'>
+                  Start Project
+                </a>
               </Button>
             </div>
           </div>
@@ -138,7 +142,9 @@ function App() {
                   size="lg"
                   className="bg-slate-900 hover:bg-slate-800 text-white px-8 hover:scale-105 transition-all duration-300 hover:shadow-lg"
                 >
-                  Get a Free Quote
+                  <a href='#contact'>
+                    Get a Free Quote
+                  </a>
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 {/* <Button
@@ -490,7 +496,7 @@ function App() {
                   <Mail className="w-6 h-6 text-violet-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">Email</h3>
-                <p className="text-slate-600">areebdeveloper1150@gmail.com</p>
+                <p className="text-slate-600">neurocraft.site@gmail.com</p>
               </CardContent>
             </Card>
 
