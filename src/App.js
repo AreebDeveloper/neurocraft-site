@@ -65,7 +65,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <div className="w-30 h-30 bg-gradient-to-br  rounded-lg flex items-center justify-center">
                 <a href='#'>
-                  <img src={Logo} />
+                   <img src={Logo} />
                 </a>
               </div>
             </div>
