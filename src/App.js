@@ -10,7 +10,7 @@ import {
   ArrowUpRight,
   Play,
   Star,
-  Lightbulb,
+  Lightbulb,    
   Rocket,
   CheckCircle,
   Mail,
